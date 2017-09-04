@@ -2,7 +2,6 @@ const Base = require('./base.js');
 
 module.exports = class extends Base {
   indexAction() {
-  	// this.body = 'hello thinkjs';
-  	return this.display();
+    return this.display('hello');
   }
 };
