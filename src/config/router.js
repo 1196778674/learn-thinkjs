@@ -1,4 +1,4 @@
 module.exports = [
-	['/hello', 'hello'],
+	['/hello/:id', 'hello'],
 	['/index', 'index'],
 ];
